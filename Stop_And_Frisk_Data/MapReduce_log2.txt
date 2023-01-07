@@ -1,0 +1,107 @@
+ss16249_nyu_edu@nyu-dataproc-m:~/SubwayProject/2013-2016/code_cleaning$ hadoop jar cleaning1.jar DataCleaning1 Project/data.csv Project/output_cleaning
+2022-12-01 00:45:05,411 INFO client.RMProxy: Connecting to ResourceManager at nyu-dataproc-m/192.168.1.61:8032
+2022-12-01 00:45:05,609 INFO client.AHSProxy: Connecting to Application History server at nyu-dataproc-m/192.168.1.61:10200
+2022-12-01 00:45:05,978 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+2022-12-01 00:45:05,997 INFO mapreduce.JobResourceUploader: Disabling Erasure Coding for path: /tmp/hadoop-yarn/staging/ss16249_nyu_edu/.staging/job_1669608701841_0844
+2022-12-01 00:45:06,317 INFO input.FileInputFormat: Total input files to process : 1
+2022-12-01 00:45:06,471 INFO mapreduce.JobSubmitter: number of splits:1
+2022-12-01 00:45:06,664 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1669608701841_0844
+2022-12-01 00:45:06,666 INFO mapreduce.JobSubmitter: Executing with tokens: []
+2022-12-01 00:45:06,867 INFO conf.Configuration: resource-types.xml not found
+2022-12-01 00:45:06,867 INFO resource.ResourceUtils: Unable to find 'resource-types.xml'.
+2022-12-01 00:45:07,011 INFO impl.YarnClientImpl: Submitted application application_1669608701841_0844
+2022-12-01 00:45:07,051 INFO mapreduce.Job: The url to track the job: http://nyu-dataproc-m:8088/proxy/application_1669608701841_0844/
+2022-12-01 00:45:07,051 INFO mapreduce.Job: Running job: job_1669608701841_0844
+2022-12-01 00:45:14,217 INFO mapreduce.Job: Job job_1669608701841_0844 running in uber mode : false
+2022-12-01 00:45:14,219 INFO mapreduce.Job:  map 0% reduce 0%
+2022-12-01 00:45:31,455 INFO mapreduce.Job:  map 5% reduce 0%
+2022-12-01 00:45:37,490 INFO mapreduce.Job:  map 7% reduce 0%
+2022-12-01 00:45:43,523 INFO mapreduce.Job:  map 9% reduce 0%
+2022-12-01 00:45:49,558 INFO mapreduce.Job:  map 12% reduce 0%
+2022-12-01 00:45:55,592 INFO mapreduce.Job:  map 14% reduce 0%
+2022-12-01 00:46:01,626 INFO mapreduce.Job:  map 16% reduce 0%
+2022-12-01 00:46:07,658 INFO mapreduce.Job:  map 19% reduce 0%
+2022-12-01 00:46:13,691 INFO mapreduce.Job:  map 21% reduce 0%
+2022-12-01 00:46:19,724 INFO mapreduce.Job:  map 24% reduce 0%
+2022-12-01 00:46:25,752 INFO mapreduce.Job:  map 26% reduce 0%
+2022-12-01 00:46:31,782 INFO mapreduce.Job:  map 28% reduce 0%
+2022-12-01 00:46:37,812 INFO mapreduce.Job:  map 31% reduce 0%
+2022-12-01 00:46:43,841 INFO mapreduce.Job:  map 33% reduce 0%
+2022-12-01 00:46:49,869 INFO mapreduce.Job:  map 35% reduce 0%
+2022-12-01 00:46:55,896 INFO mapreduce.Job:  map 38% reduce 0%
+2022-12-01 00:47:01,925 INFO mapreduce.Job:  map 40% reduce 0%
+2022-12-01 00:47:07,952 INFO mapreduce.Job:  map 43% reduce 0%
+2022-12-01 00:47:13,977 INFO mapreduce.Job:  map 45% reduce 0%
+2022-12-01 00:47:20,003 INFO mapreduce.Job:  map 47% reduce 0%
+2022-12-01 00:47:26,030 INFO mapreduce.Job:  map 50% reduce 0%
+2022-12-01 00:47:32,054 INFO mapreduce.Job:  map 52% reduce 0%
+2022-12-01 00:47:38,077 INFO mapreduce.Job:  map 55% reduce 0%
+2022-12-01 00:47:44,100 INFO mapreduce.Job:  map 57% reduce 0%
+2022-12-01 00:47:50,126 INFO mapreduce.Job:  map 59% reduce 0%
+2022-12-01 00:47:56,149 INFO mapreduce.Job:  map 62% reduce 0%
+2022-12-01 00:48:02,170 INFO mapreduce.Job:  map 64% reduce 0%
+2022-12-01 00:48:08,205 INFO mapreduce.Job:  map 100% reduce 0%
+2022-12-01 00:48:14,228 INFO mapreduce.Job:  map 100% reduce 100%
+2022-12-01 00:48:15,238 INFO mapreduce.Job: Job job_1669608701841_0844 completed successfully
+2022-12-01 00:48:15,342 INFO mapreduce.Job: Counters: 54
+        File System Counters
+                FILE: Number of bytes read=5857041
+                FILE: Number of bytes written=12206109
+                FILE: Number of read operations=0
+                FILE: Number of large read operations=0
+                FILE: Number of write operations=0
+                HDFS: Number of bytes read=87701938
+                HDFS: Number of bytes written=5594693
+                HDFS: Number of read operations=8
+                HDFS: Number of large read operations=0
+                HDFS: Number of write operations=3
+                HDFS: Number of bytes read erasure-coded=0
+        Job Counters 
+                Launched map tasks=1
+                Launched reduce tasks=1
+                Rack-local map tasks=1
+                Total time spent by all maps in occupied slots (ms)=684836
+                Total time spent by all reduces in occupied slots (ms)=13256
+                Total time spent by all map tasks (ms)=171209
+                Total time spent by all reduce tasks (ms)=3314
+                Total vcore-milliseconds taken by all map tasks=171209
+                Total vcore-milliseconds taken by all reduce tasks=3314
+                Total megabyte-milliseconds taken by all map tasks=701272064
+                Total megabyte-milliseconds taken by all reduce tasks=13574144
+        Map-Reduce Framework
+                Map input records=272602
+                Map output records=131171
+                Map output bytes=5594693
+                Map output materialized bytes=5857041
+                Input split bytes=124
+                Combine input records=0
+                Combine output records=0
+                Reduce input groups=1
+                Reduce shuffle bytes=5857041
+                Reduce input records=131171
+                Reduce output records=131171
+                Spilled Records=262342
+                Shuffled Maps =1
+                Failed Shuffles=0
+                Merged Map outputs=1
+                GC time elapsed (ms)=178
+                CPU time spent (ms)=176900
+                Physical memory (bytes) snapshot=1225826304
+                Virtual memory (bytes) snapshot=9622306816
+                Total committed heap usage (bytes)=1373634560
+                Peak Map Physical memory (bytes)=775372800
+                Peak Map Virtual memory (bytes)=4811550720
+                Peak Reduce Physical memory (bytes)=485167104
+                Peak Reduce Virtual memory (bytes)=4811968512
+        Shuffle Errors
+                BAD_ID=0
+                CONNECTION=0
+                IO_ERROR=0
+                WRONG_LENGTH=0
+                WRONG_MAP=0
+                WRONG_REDUCE=0
+        File Input Format Counters 
+                Bytes Read=87701814
+        File Output Format Counters 
+                Bytes Written=5594693
+ss16249_nyu_edu@nyu-dataproc-m:~/SubwayProject/2013-2016/code_cleaning$ 
